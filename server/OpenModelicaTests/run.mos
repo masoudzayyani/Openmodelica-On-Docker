@@ -1,0 +1,18 @@
+                                loadModel(Modelica);
+getErrorString();
+
+loadFile("types.mo");
+getErrorString();
+
+loadFile("next.mo");
+getErrorString();
+
+loadFile("system.mo");
+getErrorString();
+
+simulate(System, stopTime=20, outputFormat="csv");
+getErrorString();
+                           
+                            
+                     
+                            
